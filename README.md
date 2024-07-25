@@ -16,6 +16,10 @@
 **c) Object Detection with OpenCV:**
 - **Image Processing:** Modified the `opencv_ros` package to detect the circular object in the camera feed. Applied blob detection to identify the object and republished the processed image with detected blobs.
 
+<p align="center">
+  <img src="images/aruco.png" alt="Aruco" width="800" />
+</p>
+
 ### 2. Modifying the Look-at-Point Vision-Based Control Example
 
 **a) Vision-Based Control Implementation:**
@@ -27,6 +31,6 @@
 **c) Dynamic Vision-Based Controller Development:**
 - **Merged Controllers:** Implemented a dynamic vision-based controller by integrating joint space and Cartesian space inverse dynamics controllers. Enabled the robot to track a linear trajectory while aligning the camera with the Aruco marker. Plotted joint torques and Cartesian error norms to assess performance.
 
-<p align="center">
-  <img src="images/aruco.png" alt="Aruco" width="800" />
-</p>
+<div align="center">
+	<img src="https://github.com/saviodp7/RoboticsLabHW3/blob/main/images/aruco.gif">
+</div>
